@@ -5,19 +5,29 @@ public class Main {
 
     public static void main(String[] args){
         
-        int number = getInputNumber();
-        
-        int sum = sumOfNumbers(number);
-        
-        System.out.println(sum);
+
+
 
     }
     
     // do this one and the lab is complete. really.
     // return the sum of 0 to n... if n == 3, the result should be 6
     int sumOfNumbers(int n) {
-        return 0;
+
+        int sum = 0;
+        for (int i = 0; i < n; i++) {
+
+            sum = i + sum;
+
+
+
+        }
+
+
+        return sum;
+
     }
+
     
     
     int getInputNumber() {
